@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F9F4F0;
+    text-align: center;
+    padding: 20px; 
+}
+
+h1, h2 {
+    color: #3E2723;
+    text-decoration: underline;
+}
+
+p, ul, ol {
+    color: #4E342E;
+    background-color: #FFFFFF; /* White background for the "cards" */
+    border: 1px solid #D7CCC8;  /* Muted brown border instead of black */
+    padding: 15px;             /* Space between text and border */
+    margin: 10px auto;         /* Space between boxes */
+    max-width: 600px;          /* Prevents boxes from becoming too wide */
+    border-radius: 8px;        /* Softens the corners */
+}
+
+p {
+    text-align: start;
+}
+
+ul {
+    text-align: start;
+    list-style-position: inside; /* Keeps bullets inside the white box */
+}
+
+ol {
+    text-align: justify;
+    list-style-position: inside;
+}
+
+/* Button styling */
+a {
+    display: inline-block;     /* Allows padding to work correctly */
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 10px 20px;        /* Larger click area */
+    background-color: #8D6E63;
+    border: none;              /* Removed border for a cleaner look */
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+a:hover {
+    background-color: #D35400;
+}
